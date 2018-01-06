@@ -1,0 +1,22 @@
+package cn.qiantongmuseum.constants;
+
+/**
+ * 常量类
+ * @author feng
+ *2017年09月13日
+ */
+public class Constants {
+	 	//session中用户名称
+		public static final String USER_SESSION = "userSession";
+		 // 后台管理页面显示的位置
+		public static final String POSITION = "position";
+		 // 错误页面的提示信息
+		public static final String INFO = "info";
+		 // 错误页面3秒后跳转的url
+		public static final String URL = "url";
+		//分页大小
+		public static final Integer PAGESIZE=10;
+		//redis用户信息保存前缀
+		public static final String USERINFO="userInfo";
+	
+}
